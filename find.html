@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+    <title>아이디/패스워드 찾기</title>
+	<style>
+  
+	#leftText {                        
+    width: 70px;
+    height: 40px;   
+    display: flex;                  
+    justify-content: left;          
+    align-items: center;            
+    font-size: 15px;                
+    font-weight: bold;
+  }
+
+  #inputText {                       
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    font-size: 15px;
+  }
+  
+  #mainLogo {                        
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main2Left {                       
+    padding-left: 10px;
+    width: 290px;
+    height: 100%;
+    display: inline-block;
+    vertical-align:middle;
+  }
+
+  #main2Right {                      
+    width: 100px;
+    height: 95px;
+    display: flex;
+  }
+
+  #loginTitle {
+    color: purple; 
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #button {                             
+    width: 90px;
+    height: 85px;
+    text-align: center;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+  }
+
+  #button:hover {                        
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+  }
+  
+  #mainLine {
+    width: 400px;
+    height: 30px;
+    border-bottom: 1px solid #4e266d;
+  }
+
+  #leftText2 {                        
+    width: 70px;
+    height: 40px;    
+    display: flex;                  
+    justify-content: left;          
+    align-items: center;            
+    font-size: 15px;                
+    font-weight: bold;
+  }
+
+  #inputText2 {                       
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    font-size: 15px;
+  }
+  
+  #mainLogo2 {                        
+      width: 400px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #main2Left2 {                       
+      padding-left: 10px;
+      width: 290px;
+      height: 100%;
+      display: inline-block;
+      vertical-align:middle;
+  }
+
+  #main2Right2 {                      
+      width: 100px;
+      height: 95px;
+      display: flex;
+  }
+
+  #loginTitle2 {
+    color: purple; 
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #button2 {                             
+    width: 90px;
+    height: 85px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+  }
+
+  #button2:hover {                       
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+  }
+
+  </style>
+</head>
+<body>
+  <div style="position: absolute; top:180px; left:40%;">
+    <div id="mainLogo"> <span id="loginTitle">아이디 찾기</span> </div>
+    <div id="main2Left" style="float: left;">
+      <div style="float:left" id="leftText">
+       <span>이름</span>
+      </div>
+      <div style="float: left;" id="inputText">
+       <input type:text placeholder="이름을 입력해 주세요">
+      </div>
+      <div style="clear: both; height: 10px;"></div>
+      <div style="clear: both; float: left;" id="leftText">
+       <span>이메일</span>
+      </div>
+      <div style="float: left;" id="inputText">
+       <input type:email placeholder="이메일 주소를 입력해 주세요">
+      </div>
+    </div>
+     <div id="main2Right" style="float: left;"> <input id="button" value="아이디 찾기"/> </div>
+     <div id="mainLine" style="clear: both;"></div>
+
+    <div id="mainLogo2"> <span id="loginTitle2">비밀번호 찾기</span> </div>
+    <div id="main2Left2" style="float: left;">
+      <div style="float:left" id="leftText2">
+       <span>아이디</span>
+      </div>
+      <div style="float: left;" id="inputText2">
+       <input type:text placeholder="아이디를 입력해 주세요">
+      </div>
+      <div style="clear: both; height: 10px;"></div>
+      <div style="clear: both; float: left;" id="leftText2">
+       <span>이메일</span>
+      </div>
+      <div style="float: left;" id="inputText2">
+       <input type:email placeholder="이메일 주소를 입력해 주세요">
+      </div>
+            
+    </div>
+     <div id="main2Right2" style="float: left;"> <input id="button2" value="비밀번호 찾기"/> </div>
+  </div> 
+</body>
+</html>
